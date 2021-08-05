@@ -1,281 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap_bill.css" rel="stylesheet">
 
-        <!-- Custom styles for this template -->
-        <link href="css/navbar-fixed-top.css" rel="stylesheet">
-        
-        <title>Nick Projects</title>
-        <link rel="shortcut icon" href="/logo_mini.png" type="image/png">
-    </head>
-
-    <body>
-    
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Nick's Project Portfolio Devlog Experience</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#photos">Photos</a></li>
-                <li class="dropdown">
-                  <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">3D Catan</a></li>
-                    <li><a href="diplomacy.html">Automated Diplomacy Board</a></li>
-                    <li><a href="resin.html">Wood+Resin</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Cool things in the future</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-      </nav>
-       
-      <div class="container">
-    
-          <!-- Main component for a primary marketing message or call to action -->
-          <div class="jumbotron">
-            <h1>Hello There!</h1>
-            <p>Welcome to my (very rudimentary) portfolio website. I thought it would be cool and interesting to create a repository for some of my various personal creative projects, almost like a devlog, to document some of my creative work.</p>
-            <p>It’s both a handy and accessible way to show off this work, and a valuable personal journal document, containing images, thoughts, and lessons learned that may come in handy on future projects.</p>
-            <p>Enjoy! -Nick</p>
-            <p>
-              <a class="btn btn-lg btn-primary" href="/testpage.html" role="button">Learn More &raquo;</a>
-            </p>
-          </div>      
-      </div> <!-- /container -->
-
-      <!-- START THE FEATURETTES -->
-
-        <!-- Subaru mount + camera clip -->
-        <div class="container marketing">           
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">Mounts. <span class="text-muted">QOL designs and 3D prints -- May 2021</span></h2>
-              <p class="lead">A couple quick 3D printed projects -- a phone mount for the car, and a DSLR camera clip for hiking.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/3DP_mounts.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" src="Photos/camera_clip_1.jpg" alt="DSLR strap-mount clip attachment">
-            </div>
-          </div>
-        </div>
-
-        <!-- End table -->
-        <div class="container marketing">         
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">End Table. <span class="text-muted">Fine woodworking here I come! -- March 2021</span></h2>
-              <p class="lead">There's surely something interesting to say here....</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/end_table.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-responsive center-block" src="Photos/end_table_temp.jpg" alt="custome wood end table - temp photo">
-            </div>
-          </div>
-        </div>
-
-        <!-- Epoxy - Rings + opener -->
-        <div class="container marketing">     
-          <hr class="featurette-divider"> 
-
-          <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">Epoxy. <span class="text-muted">More wood+resin builds -- November 2020</span></h2>
-              <p class="lead">There's surely something interesting to say here....</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/epoxy_builds.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" src="Photos/opener_1.jpg" alt="Wood + resin custom bottle opener">
-            </div>
-          </div>
-        </div>
-
-        <!-- Catan Board -->
-        <div class="container marketing">        
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Catan. <span class="text-muted">The other wall-art board -- September 2020</span></h2>
-              <p class="lead">Another wall art board. Much like this website, the board functions as a display for my other projects.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/catan_board.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-responsive center-block" src="Photos/catan_board_1.jpg" alt="temp image - mid process">
-            </div>
-          </div>
-        </div>
-
-        <!-- Diplomacy Board -->
-        <div class="container marketing">           
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">Diplomacy. <span class="text-muted">The warroom board -- April 2020</span></h2>
-              <p class="lead">Are you picking up on any themes yet? This project doubles as some pretty good wall art.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/diplomacy_board.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" src="Photos/diplo_board_1.jpg" alt="Diplomacy board - no robots yet.">
-            </div>
-          </div>
-        </div>
-
-        <!-- Subaru Shifter -->
-        <div class="container marketing">         
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Shifter Knob. <span class="text-muted">New and improved! -- August 2019</span></h2>
-              <p class="lead">Taking lessons from my original shifter knob, I designed a new one to go with my new ride. I love this one.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/subaru_shifter.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-responsive center-block" src="Photos/sub_knob_9.jpg" alt="Shaped shifter knob, no resin">
-            </div>
-          </div>
-        </div>
-
-        <!-- Catan Castle -->
-        <div class="container marketing"> 
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">More Catan. <span class="text-muted">Now with castles! -- July 2019</span></h2>
-              <p class="lead">A quick addition to my 3D printed Catan set</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/catan_castle.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" src="Photos/castle_8.jpg" alt="Printed and painted 3D castle piece">
-            </div>
-          </div>
-        </div>
-
-        <!-- Trooper Shifter Knob -->
-        <div class="container marketing">       
-          <hr class="featurette-divider">
-
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Shifter Knob. <span class="text-muted">(Rough Draft) -- March 2019</span></h2>
-              <p class="lead">My first attempt at mixing epoxy and wood. To improve: aesthetics and ergonomics of a shifter knob.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/trooper_shifter.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-responsive center-block" src="Photos/knob_6.jpg" alt="Glow-in-the-dark resin knob">
-            </div>
-          </div>
-        </div>
-
-        <!-- Diplomacy robo -->
-        <div class="container marketing"> 
-          <hr class="featurette-divider">
-          
-          <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">Diplomacy. <span class="text-muted">With Robots (Sneak Preview) -- Jan 2019</span></h2>
-              <p class="lead">The next "big" thing on the horizon. The task: take an existing board game, Diplomacy, and automate the piece movement using a cool 2-axis rig and electromagnets and stuff. Also make it look freakin' sweet.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/diplomacy_robot.html" role="button">More &raquo;</a> 
-              </p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" src="Photos/shop2.jpg" alt="1 axis Diplomacy robot">
-            </div>
-          </div>
-        </div>
-
-        <!-- 3D Catan -->
-        <div class="container marketing"> 
-          <hr class="featurette-divider">
-          
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">3D Catan. <span class="text-muted">With colors and stuff -- Jan-Dec 2018 </span></h2>
-              <p class="lead">My introductory project into the joys of 3-D printer troubleshooting. Also involved: delving into a broad array of many cool skills, like organic 3D modeling in Blender (one of the best programs), miniature painting, and finishing. The one that started it all.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/catan_originals.html" role="button">More &raquo;</a>
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-responsive center-block" src="Photos/catan1_sq.jpg" alt="catan board">
-            </div>
-          </div>
-        </div>
-
-        <!-- Wood + Resin -->
-        <div class="container marketing"> 
-          <hr class="featurette-divider">
+  <!-- Custom styles for this template -->
+  <link href="css/navbar-fixed-top.css" rel="stylesheet">
   
-          <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-              <h2 class="featurette-heading">Wood+Resin. <span class="text-muted">Neat.</span></h2>
-              <p class="lead">Beginning forays into working with wood, resin, and other crafting. Big props to Youtube makers for inspiration and guidance.</p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="/resin.html" role="button">More &raquo;</a>
-              </p>
-            </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" src="Photos/resin1.jpg" alt="wood+resin cast pendant">
-            </div>
-          </div>
+  <title>Nick Build Projects</title>
+  <link rel="shortcut icon" href="/logo_mini.png" type="image/png">
+</head>
+
+
+<body>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">Nick's Project Portfolio Experience</a>
         </div>
-        <!-- /END THE FEATURETTES -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li class="dropdown">
+              <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">End Table</a></li>
+                <li><a href="#">Subaru Shifter</a></li>
+                  <li role="separator" class="divider"></li>
+                <li><a href="#">Catan Board</a></li>
+                <li><a href="#">Diplomacy Board</a></li>
+                <li><a href="#">Catan Castle</a></li>
+                <li><a href="#">3D Catan</a></li>
+                  <li role="separator" class="divider"></li>
+                <li><a href="#">Mounts</a></li>
+                <li><a href="#">Wood+Resin 2</a></li>
+                <li><a href="#">Trooper Shifter</a></li>
+                <li><a href="/resin.html">Wood+Resin</a></li>
+                  <li role="separator" class="divider"></li>
+                <li><a href="#">Robot Diplomacy</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+  </nav>
+  
+  <!-- Jumbotron Header  -->
+  <div class="container">    
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <h1>Hello there!</h1>
+      <p>Welcome to my (very rudimentary) portfolio website. I thought it would be cool and interesting to create a repository for some of my various personal creative projects, almost like a devlog, to document some of my creative work.</p>
+      <p>It’s both a handy and accessible way to show off this work, and a valuable personal journal document, containing images, thoughts, and lessons learned that may come in handy on future projects.</p>
+      <p>Enjoy! -Nick</p>
+      <p>
+        <a class="btn btn-lg btn-primary" href="/about.html" role="button">Learn More &raquo;</a>
+      </p>
+    </div>      
+  </div> <!-- /container -->
 
-        <hr class="featurette-divider">
-        
+  <hr class="featurette-divider">
+
+  <!-- START THE FEATURETTES -->
+  <div class="container">
+
+    <!-- Subaru mount + camera clip -->
+    <div class="container marketing">           
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Mounts. <small class="text-muted">QOL designs and 3D prints<br> May 2021</small></h2>
+          <p class="lead">A couple quick 3D printed projects -- a phone mount for the car, and a DSLR camera clip for hiking.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/3DP_mounts.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Photos/camera_clip_1.jpg" alt="DSLR strap-mount clip attachment">
+        </div>
+      </div>
+    </div>
+
+    <!-- End table -->
+    <div class="container marketing">         
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">End Table. <small class="text-muted">Fine woodworking here I come! <br> March 2021</small></h2>
+          <p class="lead">There's surely something interesting to say here....</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/end_table.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Photos/end_table_temp.jpg" alt="custome wood end table - temp photo">
+        </div>
+      </div>
+    </div>
+
+    <!-- Epoxy - Rings + opener -->
+    <div class="container marketing">     
+      <hr class="featurette-divider"> 
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Epoxy. <small class="text-muted">More wood+resin builds <br> November 2020</small></h2>
+          <p class="lead">There's surely something interesting to say here....</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/epoxy_builds.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Photos/opener_1.jpg" alt="Wood + resin custom bottle opener">
+        </div>
+      </div>
+    </div>
+
+    <!-- Catan Board -->
+    <div class="container marketing">        
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Catan. <small class="text-muted">The other wall-art board <br> September 2020</small></h2>
+          <p class="lead">Another wall art board. Much like this website, the board functions as a display for my other projects.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/catan_board.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Photos/catan_board_1.jpg" alt="temp image - mid process">
+        </div>
+      </div>
+    </div>
+
+    <!-- Diplomacy Board -->
+    <div class="container marketing">           
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Diplomacy. <small class="text-muted">The warroom board <br> April 2020</small></h2>
+          <p class="lead">Are you picking up on any themes yet? This project doubles as some pretty good wall art.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/diplomacy_board.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Photos/diplo_board_1.jpg" alt="Diplomacy board - no robots yet.">
+        </div>
+      </div>
+    </div>
+
+    <!-- Subaru Shifter -->
+    <div class="container marketing">         
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Shifter Knob. <small class="text-muted">New and improved! <br> August 2019</small></h2>
+          <p class="lead">Taking lessons from my original shifter knob, I designed a new one to go with my new ride. I love this one.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/subaru_shifter.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Photos/sub_knob_9.jpg" alt="Shaped shifter knob, no resin">
+        </div>
+      </div>
+    </div>
+
+    <!-- Catan Castle -->
+    <div class="container marketing"> 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">More Catan. <small class="text-muted">Now with castles! <br> July 2019</small></h2>
+          <p class="lead">A quick addition to my 3D printed Catan set</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/catan_castle.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Photos/castle_8.jpg" alt="Printed and painted 3D castle piece">
+        </div>
+      </div>
+    </div>
+
+    <!-- Trooper Shifter Knob -->
+    <div class="container marketing">       
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Shifter Knob. <small class="text-muted">(Rough Draft) <br> March 2019</small></h2>
+          <p class="lead">My first attempt at mixing epoxy and wood. To improve: aesthetics and ergonomics of a shifter knob.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/trooper_shifter.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Photos/knob_6.jpg" alt="Glow-in-the-dark resin knob">
+        </div>
+      </div>
+    </div>
+
+    <!-- Diplomacy robo -->
+    <div class="container marketing"> 
+      <hr class="featurette-divider">
       
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Diplomacy. <small class="text-muted">With Robots (Sneak Preview) <br> Jan 2019</small></h2>
+          <p class="lead">The next "big" thing on the horizon. The task: take an existing board game, Diplomacy, and automate the piece movement using a cool 2-axis rig and electromagnets and stuff. Also make it look freakin' sweet.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/diplomacy_robot.html" role="button">More &raquo;</a> 
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Photos/shop2.jpg" alt="1 axis Diplomacy robot">
+        </div>
+      </div>
+    </div>
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="js/bootstrap.min.js"></script>
+    <!-- 3D Catan -->
+    <div class="container marketing"> 
+      <hr class="featurette-divider">
+      
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">3D Catan. <small class="text-muted">With colors and stuff -- Jan-Dec 2018 </small></h2>
+          <p class="lead">My introductory project into the joys of 3-D printer troubleshooting. Also involved: delving into a broad array of many cool skills, like organic 3D modeling in Blender (one of the best programs), miniature painting, and finishing. The one that started it all.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/catan_originals.html" role="button">More &raquo;</a>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Photos/catan1_sq.jpg" alt="catan board">
+        </div>
+      </div>
+    </div>
 
-        <!-- <p> link to <a href="testpage.html">photos page</a> </p> -->
-    </body>
+    <!-- Wood + Resin -->
+    <div class="container marketing"> 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Wood+Resin. <small class="text-muted">Starting somewhere <br> March 2019 </small></h2>
+          <p class="lead">Beginning forays into working with wood, resin, and other crafting. Big props to Youtube makers for inspiration and guidance.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="/resin.html" role="button">More &raquo;</a>
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Photos/resin1.jpg" alt="wood+resin cast pendant">
+        </div>
+      </div>
+    </div>
+    
+  </div> <!-- /END THE FEATURETTES -->
+
+  <hr>
+
+  <!-- Footer -->
+  <div class="container-fluid bg-purple">
+    <h4 class="text-center">Thanks for coming by -- updates are just around the corner! circa August 2021</h4>
+  </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>-->
+
+    <!-- <p> link to <a href="testpage.html">photos page</a> </p> -->
+</body>
+
 </html>
